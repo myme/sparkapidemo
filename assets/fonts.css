@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'ciscosansregular';
+    src: url('./CiscoSansRegular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ciscosansextralight';
+    src: url('./CiscoSansExtraLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ciscosanslight';
+    src: url('./CiscoSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ciscosansthin';
+    src: url('./CiscoSansThin.otf');
+    font-weight: normal;
+    font-style: normal;
+}

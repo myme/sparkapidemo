@@ -1,0 +1,57 @@
+* {
+  font-family: ciscosansthin;
+  font-size: 20px;
+  box-sizing: border-box; }
+
+html, body, #app {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+input, textarea {
+  width: 100%;
+  margin: 10px 0; }
+
+button {
+  border-radius: 5px;
+  border: 0;
+  background-color: #F1F1F1;
+  margin: 10px;
+  padding: 10px; }
+
+.page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.page > div {
+  margin: 10px;
+  width: 400px;
+  text-align: center; }
+
+.logo {
+  width: 100px;
+  height: 100px;
+  background-image: url("../assets/sparklogo.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.title {
+  margin-top: 20px;
+  font-size: 25px; }
+
+.info {
+  color: #666;
+  font-size: 17px;
+  margin-top: 10px; }
+
+.people-count {
+  font-size: 30px;
+  font-weight: bold; }
+
+/*# sourceMappingURL=style0.css.map */

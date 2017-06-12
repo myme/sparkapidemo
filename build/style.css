@@ -1,0 +1,168 @@
+* {
+  font-family: ciscosansthin;
+  box-sizing: border-box; }
+
+html, body, #app {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #444;
+  font-size: 20px; }
+
+.page {
+  width: 750px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; }
+
+.logo {
+  width: 80px;
+  height: 80px;
+  margin: 16px;
+  background-image: url("../assets/logo.png");
+  background-size: 100% 100%; }
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.header {
+  font-size: 72px;
+  height: 200px;
+  color: #999; }
+
+.intro {
+  font-size: 26px;
+  text-align: center;
+  margin: 0 56px; }
+
+a {
+  font-size: 30px;
+  color: inherit;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+.highlight {
+  color: #0AB7D7; }
+
+.boxes {
+  width: 100%;
+  padding: 12px; }
+
+.box {
+  float: left;
+  position: relative;
+  width: 339px;
+  height: 339px;
+  font-size: 32px;
+  padding: 24px;
+  margin: 12px;
+  cursor: pointer;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.08); }
+  .box .count {
+    width: 121px;
+    height: 98px;
+    position: absolute;
+    bottom: 80px;
+    left: 109px;
+    font-size: 72px;
+    padding-top: 7px; }
+  .box.disabled {
+    opacity: 0.4;
+    cursor: auto; }
+
+.nav-bar {
+  height: 168px;
+  width: 100%;
+  font-size: 36px;
+  text-align: center;
+  background-image: url("../assets/back-button.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-top: 45px;
+  cursor: pointer; }
+  .nav-bar .subtitle {
+    font-size: 30px;
+    color: #999; }
+
+.tabs {
+  border-top: #e3e3e3 1px solid;
+  border-bottom: #e3e3e3 1px solid;
+  height: 68px;
+  font-size: 32px;
+  display: flex;
+  align-items: stretch; }
+  .tabs div {
+    flex-grow: 1;
+    text-align: center;
+    line-height: 68px;
+    cursor: pointer; }
+  .tabs div:first-child {
+    border-right: 1px solid #e3e3e3; }
+
+#info {
+  margin: 80px 0; }
+
+.device {
+  width: 640px;
+  height: 182px; }
+
+.count, .count-big {
+  width: 223px;
+  height: 196px;
+  background-image: url("../assets/head.png");
+  background-size: 64px 64px;
+  background-position: left center;
+  background-repeat: no-repeat;
+  text-align: right; }
+
+.count-big {
+  background-size: 120px 120px;
+  margin: 120px auto;
+  font-size: 144px;
+  padding-top: 10px; }
+
+.trend {
+  height: 165px;
+  width: 100%;
+  border: 1px solid #eee; }
+
+.device {
+  width: 100%;
+  height: 182px;
+  margin-top: 50px;
+  background-image: url("../assets/roomkit.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.device-text {
+  font-size: 26px;
+  font-color: #999;
+  text-align: center;
+  margin-bottom: 50px; }
+
+.map {
+  width: 100%;
+  height: 520px;
+  margin-top: 100px;
+  background-image: url("../assets/map.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative; }
+
+.marker {
+  position: absolute;
+  top: 260px;
+  right: 85px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: 4px solid rgba(255, 0, 0, 0.5); }
+
+/*# sourceMappingURL=style.css.map */
